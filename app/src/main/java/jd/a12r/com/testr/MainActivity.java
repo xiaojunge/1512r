@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             Category category = (Category) msg.obj;
-            Log.e("myMessage","== "+category.getData().get(0).getName());
+            Log.e("myMessage","== ="+category.getData().get(0).getName());
         }
     };
 
